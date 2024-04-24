@@ -10,7 +10,7 @@ main:
     lw $t1, number2           
     
     addu $t2, $t0, $t1        
-    sltu $t3, $t2, $t0         # if $t2 < $t0 : 1 else: 0
+    sltu $t3, $t2, $t0         # if $t3 < $t0 : 1 else: 0
 
                                # $t3 = curry
 

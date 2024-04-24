@@ -21,11 +21,12 @@ main:
     lw $s3, hiB
 
     addu $s4, $s0 $s2
-    sltu $t0, $s4 $s2       # if $t2 < $t0 : 1 else: 0
+
+    sltu $t0, $s4 $s0      # if $s4 < $t0 : 1 else: 0
                             # $t0 = curry
     addu $s5, $s1 $s3
-    sltu $t1, $s5 $s3       # if $t2 < $t0 : 1 else: 0
-                            # $t1 = curry
+
+    addu $s5, $s5 $t0
 
     sw $s4 re_lo
     sw $s5 re_hi 
