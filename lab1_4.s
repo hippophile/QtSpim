@@ -1,5 +1,4 @@
-# Program File: Program2-3.asm
-# Author: Charles Kann
+
 # Program to read a string from a user, and print that string back to the console. 
 
 .text
