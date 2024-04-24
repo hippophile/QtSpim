@@ -10,7 +10,7 @@ re_lo : .word 4
 re_hi : .word 4 
 
 .text
-.globgitl main
+.globl main
 
 main:
 
