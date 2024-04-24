@@ -1,6 +1,6 @@
 .data
-number1: .word 0xFFFFFFFF  
-number2: .word 0x1         
+number1: .word 0xFFFFFFFF  # 0x1234567899
+number2: .word 0x1         # 1
 
 .text
 .globl main
