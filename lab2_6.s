@@ -1,10 +1,10 @@
 .data
 
-loA : .word 0x12345678
-hiA : .word 0xFFA56783
+loA : .word  0987654321         # 0x12345678
+hiA : .word  1234567890          # 0xFFA56783
 
-loB : .word 0xFF34A678
-hiB : .word 0xBA5C7833
+loB : .word  1234512345           # 0xFF34A678
+hiB : .word  0987650987           # 0xBA5C7833
 
 re_lo : .word 4
 re_hi : .word 4 
